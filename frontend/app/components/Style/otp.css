@@ -1,0 +1,33 @@
+.otp-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .otp-box {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .otp-box:focus {
+    border-color: #007bff;
+  }
+  
+  .verify-button {
+    width: 100%; 
+    max-width: 270px; 
+    height: 40px;
+    font-size: 1.1rem; 
+    padding: 0; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
